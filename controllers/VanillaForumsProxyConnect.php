@@ -6,7 +6,7 @@ class VanillaForumsProxyConnect extends Public_Controller
 	{
 		$this->template->set_layout(null);
 		
-		if(property_exists($this, 'user'))
+		if($this->user)
 		{
 			$this->template->build('index', array(
 				'user'	=> array(
