@@ -20,7 +20,7 @@ class VanillaForumsProxyConnect extends Public_Controller
 			$this->template->build('index', array(
 				'user'	=> array(
 					'id'	=> $this->user->id,
-					'name'	=> $this->user->username,
+					'name'	=> $this->user->display_name,
 					'email'	=> $this->user->email,
 				),
 			));
