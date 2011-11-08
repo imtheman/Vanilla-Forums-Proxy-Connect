@@ -6,13 +6,13 @@
 	This information required by <a href="http://vanillaforums.org/">Vanilla Forum</a>'s SSO <a href="http://vanillaforums.org/page/ProxyConnect_SSO">ProxyConnect</a> Authenticator.
 	More information can be found at <a href="http://vanillaforums.org/page/singlesignon">http://vanillaforums.org/page/singlesignon</a>.
 <p>
-	
+
 <p>
-	Please note, this information is based on a standard PyroCMS installation. 
-	If you're using an alternate method of user authentication, these values 
+	Please note, this information is based on a standard PyroCMS installation.
+	If you're using an alternate method of user authentication, these values
 	maybe incorrect.
 </p>
-	
+
 <form action="#" method="post" class="crud">
 	<fieldset>
 		<ol>

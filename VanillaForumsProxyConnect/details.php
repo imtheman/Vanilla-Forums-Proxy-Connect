@@ -1,7 +1,7 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 /**
- * 	Allows Vanilla Forums to integrate with PyroCMS authentication system,
- *  more information can be found at http://vanillaforums.org/page/singlesignon
+ * Allows Vanilla Forums to integrate with PyroCMS authentication system,
+ * more information can be found at http://vanillaforums.org/page/singlesignon
  *
  * @author			Anthony Sterling
  * @package			PyroCMS
@@ -12,7 +12,7 @@
 class Module_VanillaForumsProxyConnect
 {
 	public $version = '0.0.1';
-	
+
 	public function info()
 	{
 		return array(
@@ -24,25 +24,25 @@ class Module_VanillaForumsProxyConnect
 			),
 			'menu'				=> null,
 			'frontend'		=> true,
-			'backend'			=> true
+			'backend'			=> true,
 		);
 	}
-	
+
 	public function install()
 	{
 		return true;
 	}
-	
+
 	public function uninstall()
 	{
 		return true;
 	}
-	
+
 	public function upgrade($previous_version)
 	{
 		return true;
 	}
-	
+
 	public function help()
 	{
 		return '';
