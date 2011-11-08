@@ -1,7 +1,7 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 /**
- * 	This information required by Vanilla Forum's SSO ProxyConnect Authenticator.
- *  More information can be found at http://vanillaforums.org/page/singlesignon
+ * 	Allows Vanilla Forums to integrate with PyroCMS authentication system,
+ *  more information can be found at http://vanillaforums.org/page/singlesignon
  *
  * @author			Anthony Sterling
  * @package			PyroCMS
