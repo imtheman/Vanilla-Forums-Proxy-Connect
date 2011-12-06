@@ -22,19 +22,19 @@
 			</li>
 			<li class="<?php echo alternator('', 'even'); ?>">
 				<label for="auth-url">Authenticate URL</label>
-				<input type="text" name="auth-url" value="<?php echo $url['authentication']; ?>" readonly="readonly" />
+				<input type="text" name="authentication-url" value="<?php echo $url['authentication']; ?>" readonly="readonly" />
 			</li>
 			<li class="<?php echo alternator('', 'even'); ?>">
 				<label for="reg-url">Registration URL</label>
-				<input type="text" name="reg-url" value="<?php echo $url['registration']; ?>" readonly="readonly" />
+				<input type="text" name="registration-url" value="<?php echo $url['registration']; ?>" readonly="readonly" />
 			</li>
 			<li class="<?php echo alternator('', 'even'); ?>">
 				<label for="signin-url">Sign-In URL</label>
-				<input type="text" name="signin-url" value="<?php echo $url['sign-in']; ?>" readonly="readonly" />
+				<input type="text" name="sign-in-url" value="<?php echo $url['sign-in']; ?>" readonly="readonly" />
 			</li>
 			<li class="<?php echo alternator('', 'even'); ?>">
 				<label for="signout-url">Sign-Out URL</label>
-				<input type="text" name="signout-url" value="<?php echo $url['sign-out']; ?>" readonly="readonly" />
+				<input type="text" name="sign-out-url" value="<?php echo $url['sign-out']; ?>" readonly="readonly" />
 			</li>
 		</ol>
 	</fieldset>

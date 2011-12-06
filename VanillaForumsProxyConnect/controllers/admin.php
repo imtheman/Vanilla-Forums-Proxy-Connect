@@ -19,8 +19,8 @@ class Admin extends Admin_Controller
 				'authentication'	=> site_url('VanillaForumsProxyConnect'),
 				'registration'		=> site_url('users/register'),
 				'sign-in'					=> site_url('users/login'),
-				'sign-out'				=> site_url('users/logout')
-			)
+				'sign-out'				=> site_url('users/logout'),
+			),
 		));
 	}
 }
