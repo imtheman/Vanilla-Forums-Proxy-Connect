@@ -14,11 +14,13 @@ class Admin extends Admin_Controller
 	public function index()
 	{
 		$this->template->build('admin/index', array(
-			'site_url'		=> site_url(),
-			'auth_url'		=> site_url('VanillaForumsProxyConnect'),
-			'reg_url'			=> site_url('users/register'),
-			'signin_url'	=> site_url('users/login'),
-			'signout_url'	=> site_url('users/logout'),
+			'url'	=> array(
+				'site'						=> site_url(),
+				'authentication'	=> site_url('VanillaForumsProxyConnect'),
+				'registration'		=> site_url('users/register'),
+				'sign-in'					=> site_url('users/login'),
+				'sign-out'				=> site_url('users/logout')
+			)
 		));
 	}
 }

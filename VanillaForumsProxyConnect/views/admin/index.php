@@ -18,23 +18,23 @@
 		<ol>
 			<li class="<?php echo alternator('', 'even'); ?>">
 				<label for="site-url">Pyro CMS URL</label>
-				<input type="text" name="site-url" value="<?php echo $site_url; ?>" readonly="readonly" />
+				<input type="text" name="site-url" value="<?php echo $url['site']; ?>" readonly="readonly" />
 			</li>
 			<li class="<?php echo alternator('', 'even'); ?>">
 				<label for="auth-url">Authenticate URL</label>
-				<input type="text" name="auth-url" value="<?php echo $auth_url; ?>" readonly="readonly" />
+				<input type="text" name="auth-url" value="<?php echo $url['authentication']; ?>" readonly="readonly" />
 			</li>
 			<li class="<?php echo alternator('', 'even'); ?>">
 				<label for="reg-url">Registration URL</label>
-				<input type="text" name="reg-url" value="<?php echo $reg_url; ?>" readonly="readonly" />
+				<input type="text" name="reg-url" value="<?php echo $url['registration']; ?>" readonly="readonly" />
 			</li>
 			<li class="<?php echo alternator('', 'even'); ?>">
 				<label for="signin-url">Sign-In URL</label>
-				<input type="text" name="signin-url" value="<?php echo $signin_url; ?>" readonly="readonly" />
+				<input type="text" name="signin-url" value="<?php echo $url['sign-in']; ?>" readonly="readonly" />
 			</li>
 			<li class="<?php echo alternator('', 'even'); ?>">
 				<label for="signout-url">Sign-Out URL</label>
-				<input type="text" name="signout-url" value="<?php echo $signout_url; ?>" readonly="readonly" />
+				<input type="text" name="signout-url" value="<?php echo $url['sign-out']; ?>" readonly="readonly" />
 			</li>
 		</ol>
 	</fieldset>
